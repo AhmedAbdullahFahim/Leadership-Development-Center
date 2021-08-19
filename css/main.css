@@ -1,0 +1,1122 @@
+/* 
+Main Colors
+{
+    #08526d
+    #d9d7d7
+}
+Main fonts
+{
+    amiri
+    -webkit-pictograph
+}
+body font
+{
+    default
+    font-weight: 400
+}
+
+*/
+
+body
+{
+    /* font-family: amiri; */
+}
+
+/* Header */
+
+.header img
+{
+    background-size: cover;
+    max-width: 100%;
+}
+
+/* Header */
+
+/* Navigation bars */
+
+.navigation-one,
+.navigation-two
+{
+    font-family: -webkit-pictograph;
+}
+
+/* Navigation bars */
+
+/* Navigation One */
+
+.navigation-one
+{
+    background-color: #08526d;
+    height: 80px;    
+}
+.navigation-one .navbar-nav .nav-link
+{
+    color: #f8f9fa;
+    font-size: 22px; /* -webkit-pictograph & amiri font family */
+    font-weight: bold;
+    margin-left: 150px;
+    padding: 16px 8px;
+}
+
+.navigation-one .navbar-nav .nav-link:hover
+{
+    color: #d9d7d7;
+    -webkit-transition: 0.7s;
+    -o-transition: 0.7s;
+    -moz-transition: 0.7s;
+    transition: 0.7s;
+}
+
+/* Navigation One */
+
+/* Navigation Two */
+
+.navigation-two
+{
+    background-color: #d9d7d7;
+}
+
+.navigation-two .navbar-nav > li > .dropdown-menu
+{
+    background-color: #d9d7d7;
+    border: 1.2px solid #08526d;
+}
+
+.navigation-two .navbar-nav .about
+{
+    margin-left: -72px;
+}
+
+.navigation-two .navbar-nav .library
+{
+    margin-left: -92px;
+}
+
+.navigation-two .navbar-nav .dropdown-item
+{
+    text-align: right;
+    padding: 5px 16px 5px 25px;
+    margin-bottom: 10px;
+}
+
+.navigation-two .navbar-nav .dropdown-last
+{
+    margin-bottom: 2px;
+}
+
+.navigation-two .navbar-nav .dropdown-item:hover
+{
+    background-color: #08526d;
+    color: #f8f9fa;
+    -webkit-transition: 0.4s all;
+    -moz-transition: 0.4s all;
+    -o-transition: 0.4s all;
+    transition: 0.4s all;
+}
+
+.navigation-two .navbar-nav .nav-link
+{
+    margin-left: 30px;
+    color: #08526d;
+    font-size: 15px;
+}
+
+.navigation-two .navbar-nav .nav-link:hover
+{
+    -webkit-transition: 0.7s all;
+    -o-transition: 0.7s all;
+    -moz-transition: 0.7s all;
+    transition: 0.7s all;
+    color: #000;
+}
+
+/* Navigation Two */
+
+/* marquee */
+
+.marquee
+{
+    padding: 10px 0;
+    background-color: #f8f9fa;
+    font-size: 18px;
+}
+
+.marquee a
+{
+    color: #08526d;
+}
+/* marquee */
+
+/* carousel */
+
+.first-caro
+{
+    background-color: #f8f9fa;
+    padding: 30px 190px 30px 175px;
+}
+
+.first-caro .carousel-inner
+{
+    border:2px solid #08526d;
+}
+
+/* carousel */
+
+/* cocard */
+
+/* collaplse */
+
+.cocard
+{
+    padding: 50px 0;
+}
+
+.cocard .colapse .btn
+{
+    font-family: -webkit-pictograph;
+    color: #f8f9fa;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #08526d;
+}
+
+.cocard .accordion > .card .card-header
+{
+    background-color: #08526d;
+}
+
+.cocard .colapse .card-body .more
+{
+    font-weight: bold;
+    color: red;
+    position: absolute;
+    left: 20px;
+    bottom: 7px;
+}
+
+/* collapse */
+
+/* card */
+
+.cocard .cardo
+{
+    height: 310px;
+}
+
+.cocard .cardo .card-body .card-title
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cocard .cardo .card-body p
+{
+    font-size: 20px;
+    margin: 30px 0 25px 0;
+}
+
+.cocard .cardo .card-body .btn
+{
+    font-family: -webkit-pictograph;
+    font-size: 18px;
+    background-color: #08526d;
+}
+/* card */
+
+/* cocard */
+
+/* new */
+
+.new
+{
+    /*
+    color: #d9d7d7;
+    background-color: #08526d;
+    */
+    height: 54.4px;
+    background-color: #d9d7d7;
+    color: #08526d;
+}
+
+.new p
+{   
+    font-size: 22px;
+    line-height: 45px;
+    font-weight: 600;
+    text-align: right;
+    padding: 5px;
+}
+
+.new .neew
+{
+    font-size: 22px;
+    line-height: 45px;
+    font-weight: 600;
+    position: absolute;
+    left: 255px;
+    padding: 4px;
+}
+
+/* new */
+
+/* taslide */
+
+.taslide
+{
+    padding: 50px 190px 15px 173px;
+}
+
+.taslide .schedule table
+{
+    width: 100%;
+    height: 365.3px;
+    text-align: center;
+}
+
+.taslide .schedule table, td
+{
+    border: 2px solid #000;
+}
+
+.taslide .schedule .cap
+{
+    text-align: center;
+    padding-left: 120px;
+    background-color: #d9d7d7;
+    color: #08526d;
+}
+
+.taslide .schedule .ri
+{
+    width: 130px;
+    font-weight: bold;
+    font-size: 18px;
+    color:#000;
+}
+
+.taslide .schedule .capdown
+{
+    text-align: center;
+}
+
+.taslide .schedule a
+{
+    color: #08526d
+}
+
+/* taslide */
+
+/* bottom-marquee */
+
+.bottom-marquee
+{
+    padding: 20px 0;
+}
+
+/* bottom-marquee */
+
+/* Copyrights */
+
+.copyrights
+{
+    padding: 10px 0 20px 0;
+}
+
+.copyrights
+{
+    color: #666;
+}
+/* End of Copyrights */
+
+/* ****************************************************************************** */
+
+/* كلمة السيد رئيس الجهاز */
+
+.word img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px;
+}
+
+.theWord
+{
+    padding: 0 135px;
+    margin-top: 30px;
+}
+
+.theWord a
+{
+    text-decoration:none;
+    color: #08526d;
+}
+
+/* كلمة السيد رئيس الجهاز */
+
+/* ****************************************************************************** */
+
+/* آخر الأخبار */
+
+.news img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theNews
+{
+    margin-top: 30px;
+}
+
+.theNews .btn
+{
+    font-family: -webkit-pictograph;
+    color: #f8f9fa;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #08526d;
+    text-align: right;
+}
+
+.theNews .accordion > .card .card-header
+{ 
+    background-color: #08526d;
+    font-weight: bold;
+}
+
+.theNews .accordion > .card .card-header:last-child
+{
+    border-top: 1px solid rgba(255, 255, 255, 0.3);   
+}
+
+.theNews .card-body .more
+{
+    font-weight: bold;
+    color: red;
+    position: absolute;
+    left: 45px;
+    bottom: 7px;
+}
+
+.theNews .card .card-body
+{
+    font-size: 17px;
+}
+
+/* آخر الأخبار */
+
+/* ****************************************************************************** */
+
+/* اتصل بنا */
+
+.call img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theCall
+{
+    margin-top: 30px;
+}
+
+.theCall .card .card-header
+{
+    font-family: -webkit-pictograph;
+    background-color: #08526d;
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.theCall .card .ctitle
+{
+    font-weight: bold;
+    color: red;
+}
+
+.theCall .card h6
+{
+    font-size: 17px;
+}
+
+/* اتصل بنا */
+
+/* ****************************************************************************** */
+
+/* عن المركز */
+
+/* نشاة المركز */
+
+.establ img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theEstabl
+{
+    padding: 0 135px;
+    margin-top: 30px;
+}
+
+/* نشاة المركز */
+
+/* ************ */
+
+/* أهداف المركز */
+
+.goals img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theGoals
+{
+    margin-top: 30px;
+}
+
+.theGoals .card .card-header
+{
+    font-family: -webkit-pictograph;
+    background-color: #08526d;
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+}
+/* أهداف المركز */
+
+/* ************ */
+
+/* الهيكل التنظيمى */
+
+.hykl img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theHykl img
+{
+    margin-top: 30px;
+    max-width: 100%;
+    background-size: cover;
+}
+
+/* الهيكل التنظيمى */
+
+/* ************ */
+
+/* اختصاصات */
+
+.special img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theSpecial
+{
+    margin-top: 30px
+}
+
+.theSpecial .card .card-header
+{
+    font-family: -webkit-pictograph;
+    background-color: #08526d;
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.theSpecial .card .card-body .card-title
+{
+    line-height: 1.6;
+}
+
+/* الهيكل التنظيمى */
+
+/* **************** */
+
+/* أساليب ووسائل التدريب */
+
+.tech img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theTech
+{
+    margin-top: 30px;
+    padding: 0 135px;
+}
+
+.theTech hr
+{
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* أساليب ووسائل التدريب */
+
+.options img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theOptions
+{
+    margin-top: 30px
+}
+
+.theOptions .card .card-header
+{
+    font-family: -webkit-pictograph;
+    background-color: #08526d;
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.theOptions .card .card-body .card-title
+{
+    line-height: 1.6;
+}
+
+.theOptions .card .card-body .st
+{
+    font-size: 19.8px;
+}
+
+/* أساليب ووسائل التدريب */
+
+/* ********************** */
+
+/* قيادات المركز */
+
+.leader img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theLeader
+{
+    margin-top: 30px
+}
+
+.theLeader .card .card-header
+{
+    font-family: -webkit-pictograph;
+    background-color: #08526d;
+    color: #fff;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.theLeader .card .card-title
+{
+    font-size:1.3rem;
+}
+
+/* قيادات المركز */
+
+/* ************** */
+
+/* خدمات المركز */
+
+.service img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theService
+{
+    margin-top: 30px
+}
+
+.theService .card .card-header
+{
+    font-family: -webkit-pictograph;
+    background-color: #08526d;
+    color: #fff;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.theService .card .listo
+{
+    padding: 15px 60px 0 0;
+    line-height: 2;
+}
+
+.theService .card .listoh
+{
+    padding: 15px 60px 0 0;
+    line-height: 2;
+}
+
+/* خدمات المركز */
+
+/* ********************************************************** */
+
+/* إطار الخطة التدريبية */
+
+.plan img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.thePlan
+{
+    margin-top: 30px;
+}
+
+.thePlan .card .card-header
+{
+    font-family: -webkit-pictograph;
+    background-color: #08526d;
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.thePlan .card a
+{
+    font-weight: bold;
+    color: red;
+}
+
+.thePlan .card .card-text
+{
+    font-size: 18px;
+}
+
+/* إطار الخطة التدريبية */
+
+/* ************************************************************************* */
+
+/* المواد العلمية */
+
+.mat img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theMat
+{
+    margin-top: 30px;
+}
+
+.theMat .card .card-header
+{
+    font-family: -webkit-pictograph;
+    background-color: #08526d;
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.theMat .card a
+{
+    font-weight: bold;
+    color: red;
+    line-height: 2;
+}
+
+/* المواد العلمية */
+
+/* **************************************************************************** */
+
+/* المحتوى العلمى */
+
+.content img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theContent
+{
+    margin-top: 30px;
+}
+
+.theContent .btn
+{
+    font-family: -webkit-pictograph;
+    color: #f8f9fa;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #08526d;
+    text-align: right;
+}
+
+
+.theContent .accordion > .card .card-header
+{ 
+    background-color: #08526d;
+    font-weight: bold;
+}
+
+.theContent .accordion > .card .card-body
+{
+    font-size: 18px;
+    line-height: 2;
+}
+
+.theContent .card .ctitle
+{
+    font-weight: bold;
+    color: red;
+}
+
+.theContent .card p
+{
+    padding-right: 30px;
+}
+
+.theContent .depto
+{
+    background-color: #d9d7d7;
+    color: #08526d;
+    margin-bottom: 20px;
+}
+
+/* المحتوى العلمى */
+
+/* *********************************************************************************** */
+
+/* المكتبة */
+
+.abs img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theAbs
+{
+    margin-top: 30px;
+}
+
+.theAbs .card .card-header
+{
+    font-family: -webkit-pictograph;
+    background-color: #08526d;
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.theAbs .card a
+{
+    font-weight: bold;
+    color: red;
+    line-height: 2;
+}
+
+/* استمارات ترشيح المتدربين */
+
+.form img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theForm
+{
+    margin-top: 30px;
+}
+
+.theForm .card .card-header
+{
+    font-family: -webkit-pictograph;
+    background-color: #08526d;
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.theForm .card a
+{
+    font-weight: bold;
+    color: red;
+    line-height: 2;
+}
+
+/* ********************************** */
+
+/* ندوات ومؤتمرات */
+
+.conf img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theConf
+{
+    margin-top: 30px
+}
+
+.theConf .card .card-header
+{
+    font-family: -webkit-pictograph;
+    background-color: #08526d;
+    color: #fff;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.theConf .card .card-title
+{
+    font-size:1.3rem;
+}
+
+.theConf hr
+{
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* ندوات ومؤتمرات */
+
+/* الموقف اليومى */
+
+.sched img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theSched
+{
+    margin-top: 30px
+}
+
+.theSched .card .card-header
+{
+    font-family: -webkit-pictograph;
+    background-color: #08526d;
+    color: #fff;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.theSched .card .card-title
+{
+    font-size:1.3rem;
+}
+
+.theSched .depto
+{
+    background-color: #d9d7d7;
+    color: #08526d;
+    margin-bottom: 20px
+}
+
+/* الموقف اليومى */
+
+/* ******************************************* */
+
+/* الإنجازات */
+
+.achiev img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theAchiev
+{
+    margin-top: 30px;
+}
+
+.theAchiev .btn
+{
+    font-family: -webkit-pictograph;
+    color: #f8f9fa;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #08526d;
+    text-align: right;
+}
+
+
+.theAchiev .accordion > .card .card-header
+{ 
+    background-color: #08526d;
+    font-weight: bold;
+}
+
+.theAchiev .card .card-header
+{
+    font-family: -webkit-pictograph;
+    background-color: #08526d;
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.theAchiev .card a
+{
+    font-weight: bold;
+    color: red;
+    line-height: 2;
+}
+
+/* الإنجازات */
+
+/* ********************************************************************** */
+
+/* قرارات وكتب دورية */
+
+.dec img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theDec
+{
+    margin-top: 30px;
+}
+
+.theDec .btn
+{
+    font-family: -webkit-pictograph;
+    color: #f8f9fa;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #08526d;
+    text-align: right;
+}
+
+.theDec .accordion > .card .card-header
+{ 
+    background-color: #08526d;
+    font-weight: bold;
+}
+
+.theDec .card a
+{
+    font-weight: bold;
+    color: red;
+    line-height: 2;
+}
+
+/* قرارات وكتب دورية */
+
+/* ***************************************************************** */
+
+/* أهم الأبحاث */
+
+.res img
+{
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 90px;
+    padding-top: 7px
+}
+
+.theRes
+{
+    margin-top: 30px
+}
+
+.theRes .depto
+{
+    background-color: #d9d7d7;
+    color: #08526d;
+    margin-bottom: 20px
+}
+
+.theRes .card .card-header
+{
+    font-family: -webkit-pictograph;
+    background-color: #08526d;
+    color: #fff;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.theRes .card .card-title
+{
+    font-size:1.3rem;
+}
+
+.theRes .card .si
+{
+    font-size: 18px;
+}
+
+/* أهم الأبحاث */
